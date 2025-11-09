@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Formlar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+<meta name="description" content="Php ve Form">
+<meta name="keywords" content="HTML,PHP, Form">
+<meta name="Author" content="Alper Odabaş">
+</head>
+<body>
+
+ <form name="uyelik" method="post" action="uye_kaydet.php">
+      Adınız: <input type="text" name="adi"><br>
+      Soyadınız: <input type="text" name="soyadi"><br>
+      Kullanıcı adınız: Adınız: <input type="text" name="kullanici_adi"><br>
+      e-mail adresiniz: <input type="text" name="email"><br>
+      Şifre: <input type="password" name="sifre"><br>
+      Tekrar şifre: <input type="password" name="tekrar_sifre"><br>
+      <input type="submit" name="gonder" value="Gönder">
+ </form>
+
+<?php
+
+/* 
+Basit bir üyelik kaydı için kullanılabilecek bir form yapısı.,
+*/
+	
+
+
+?>
+
+</body>
+</html>
